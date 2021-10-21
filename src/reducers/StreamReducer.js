@@ -6,6 +6,7 @@ import {
   DELETE_STREAM,
   EDIT_STREAM,
 } from "../actions/types";
+//Types should be saved into another file to avoid typos
 export default (state = {}, action) => {
   switch (action.type) {
     case FETCH_STREAMS:
